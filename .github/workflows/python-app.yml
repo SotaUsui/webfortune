@@ -31,8 +31,9 @@ jobs:
         
     - name: Install 
       run: |
-        sudo apt-get install fortunes fortune-mod cowsay
-        
+        sudo apt-get install fortune
+        sudo apt-get install cowsay
+      
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
